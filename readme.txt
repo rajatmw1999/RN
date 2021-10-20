@@ -19,3 +19,19 @@ Running the second command, all the packages mentioned in the package.json will 
 # REACT
 
 A react component is a function that returns JSX. JSX looks similar to HTML.
+
+
+An array is a bunch of elements in one variable.
+var names = ["Nishant","VIpin","Rajat","Raghav","Soham"];
+var ages  = [22,26,22,21,15];
+var address = ["Noida","Noida","Mahavir Enc.","Mahavir Enc.","Noida"];
+
+An element is any number or a text.
+
+FlatList Element in react native is used to display arrays.
+
+## Importance of key
+
+A key in a element is its unique identifier. It is used for performance optimization.
+If a particular element in our code is changed, then that element will be directly affected/changed in the screen and not all the elements of that screen, if the 
+key is present. If the key is not present for each element in a list, then all the elements on the screen will be changed on a single change in code.
