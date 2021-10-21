@@ -7,7 +7,7 @@ const ComponentScreen = function() {
 
 const myStyle = StyleSheet.create({
     textStyle: {
-        fontSize: 5     
+        fontSize: 40     
     }
 })
 
