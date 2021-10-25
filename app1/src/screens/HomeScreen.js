@@ -23,6 +23,21 @@ const HomeScreen = (props) => {
         props.navigation.navigate('Image')
       } />
 
+      <Button title="State Screen Button" onPress={() =>
+        props.navigation.navigate('State')
+      } />
+
+      <Button title="Color Screen Button" onPress={() =>
+        props.navigation.navigate('Color')
+      } />
+
+      <Button title="Adjustable Color Screen Button" onPress={() =>
+        props.navigation.navigate('Adjustable')
+      } />
+
+      <Button title="Text Input Screen Button" onPress={() =>
+        props.navigation.navigate('TextInput')
+      } />
     </View>
   );
 };
